@@ -3,6 +3,7 @@
   width: 100%;
   position: relative;
   z-index: 5;
+  overflow: hidden;
 }
 
 @keyframes pulsate {
@@ -88,8 +89,8 @@
 
     scale: 1.5;
 
-    right: -158px;
-    top: 155px;
+    right: -170px;
+    top: 160px;
     height: 100%;
     animation: pulsateDC 2s infinite ease-in-out;
   }
